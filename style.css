@@ -1,0 +1,21 @@
+h3
+{
+    font-size: 25px;
+}
+.btn-success:hover
+{
+    background-color: lightgreen;
+}
+canvas {
+    animation-name: itdosentmatterjustputexamples;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes itdosentmatterjustputexamples {
+    from{
+        box-shadow: 1px 1px 38px rgb(51, 190, 233);
+    }
+    to{
+        box-shadow: 1px 1px 38px forestgreen;
+    }
+}
